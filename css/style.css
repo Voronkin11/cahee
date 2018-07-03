@@ -1,14 +1,44 @@
+@font-face {
+    font-family: 'pacifico regular';
+    src: url('../fonts/pacifico-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway bold';
+    src: url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway light';
+    src: url('../fonts/raleway-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway heavy';
+    src: url('../fonts/raleway-heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+	font-family: 'raleway light';
 	font-size: 17px;
 	color: #262626;
 }
-h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
+
 .link{
 	text-decoration: none;
 	color: inherit;
 }
+
 .container {
 	width: 1200px;
 	margin: 0 auto;
@@ -95,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offset-s6 {
-	margin-left: calc(50% +15px);
+	margin-left: calc(50% + 15px);
 }
 
 .offset-s7 {
@@ -123,16 +153,90 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*header*/
-.header {
-	position: relative;
+.wrap-header {
 	background-image: url(../img/header-bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.header {
+	position: relative;
+	min-height: 100vh;
+	padding-top: 57px;
+}
+
 .logo {
 	position: absolute;
-	font-family: ;
+	top: 50px;
+	left: 15px;
+	font-family: 'pacifico regular';
+	font-weight: 300;
 	font-size: 50px;
 }
+
+.list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 270px;
+	padding: 0;
+	list-style-type: none;
+	font-size: 0;
+}
+
+.list-nav__link{
+	display: inline-block;
+	font-family: 'raleway bold', Arial, Sans-Serif;
+	font-size: 16px;
+	line-height: 1.56;
+	text-transform: uppercase;
+}
+
+.list-nav__link:hover,
+.list-nav__link:active {
+	box-shadow: 0 -3px 0 0 #ff6033;
+}
+
+/*info*/
+
+.info__title {
+	margin-bottom: 30px;
+	font-family: 'raleway heavy';
+	font-size: 60px;
+	line-height: 0.8;
+}
+
+.info__text {
+	margin-bottom: 30px;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+.btn-info {
+	width: 200px;
+	height: 55px;
+	padding: 0;
+	border: none;
+	background-color: #ff6033;
+	box-shadow: 0 2px 1px 1px #9a9a9c; 
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.scroll__header {
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 40px;
+	bottom: 69px;
+	left: 50%;
+	margin-left: -12px;
+	border-radius: 14px;
+}
+
+.scroll__header:hover {
+	box-shadow: 0 0 0 3px #ffe200;
+	background-color: #00ccff;
+}
+

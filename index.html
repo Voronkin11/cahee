@@ -8,28 +8,34 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="container header">
-		<a href="#" class="link">
-			<h1 class="logo">Cahee</h1>
-		</a>
-		<nav>
-			<ul>
-				<li><a href="" class="link">home</a></li>
-				<li><a href="" class="link">about</a></li>
-				<li><a href="" class="link">services</a></li>
-				<li><a href="" class="link">gallegy</a></li>
-				<li><a href="" class="link">blog</a></li>
-				<li><a href="" class="link">contact</a></li>
-			</ul>
-		</nav>
-		<div class="info">
-			<h3>Fresh Life</h3>
-			<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			<button>get free now</button>
-		</div>
-		<a href="#about-us">
-			<img src="img/scroll.png" alt="scroll icon">
-		</a>
-	</header>
+	<div class="wrap-header">
+		<header class="container header">
+			<a href="#" class="link">
+				<h1 class="logo">Cahee</h1>
+			</a>
+			<div class="row">
+				<nav class="column column-s6 offset-s6 nav">
+					<ul class="list list-nav">
+						<li class="list-nav__item"><a href="" class="link list-nav__link">home</a></li>
+						<li class="list-nav__item"><a href="" class="link list-nav__link">about</a></li>
+						<li class="list-nav__item"><a href="" class="link list-nav__link">services</a></li>
+						<li class="list-nav__item"><a href="" class="link list-nav__link">gallegy</a></li>
+						<li class="list-nav__item"><a href="" class="link list-nav__link">blog</a></li>
+						<li class="list-nav__item"><a href="" class="link list-nav__link">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="row">
+				<div class="column column-s4 info">
+					<h3 class="info__title">Fresh Life</h3>
+					<p class="text info__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+					<button class="btn-info">get free now</button>
+				</div>
+			</div>
+			<a href="#about-us" class="scroll scroll__header">
+				<img src="img/scroll.png" alt="scroll icon">
+			</a>
+		</header>
+	</div>
 </body>
 </html>
