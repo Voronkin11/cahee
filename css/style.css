@@ -309,8 +309,18 @@ p, h1, h2, h3, h4, h5, h6 {
 	width: 400px;
 	height: 100px;
 	margin-bottom: 20px;
-	padding: 0 25px 0 70px;
+	padding: 0;
 	background-color: #ffffff;
+	text-align: center;
+}
+
+.link__services:hover {
+	box-shadow: 0 2px 5px 1px #45769e;
+}
+
+.link__text {
+	width: 75%;
+	text-align: center;
 }
 
 .block-text__services {
@@ -323,8 +333,13 @@ p, h1, h2, h3, h4, h5, h6 {
 	color: #ffffff;
 }
 
-.svg-ico::before {
-	content: url(../img/line.svg);
+.svg-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	height: 100%;
+	border-left: 1px solid #9d9d9d;
 }
 
 /*gallery*/
