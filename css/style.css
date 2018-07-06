@@ -38,7 +38,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .link{
 	text-decoration: none;
-	color: inherit;
+	color: #262626;
 }
 
 .container {
@@ -157,7 +157,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .section-h2 {
-	margin-bottom: 30px; 
+	margin-bottom: 35px; 
 	font-family: 'raleway bold';
 	font-size: 90px;
 	line-height: 0.8;
@@ -314,7 +314,7 @@ p, h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-.link__services:hover {
+.hover:hover {
 	box-shadow: 0 2px 5px 1px #45769e;
 }
 
@@ -344,10 +344,52 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*gallery*/
 
+.wrap__gallery {
+	padding: 90px 0 120px 0;
+	background-color: #ffe92f;
+}
 
+.section-gallery {
+	text-align: center;
+}
 
+.section-h2__gallery {
+	margin-bottom: 30px;
+}
 
+.block-text__gallery {
+	width: 577px;
+	margin: 0 auto 45px;
+	padding: 0;
+}
 
+.row__gallery {
+	margin-bottom: 30px;
+}
+
+.column .row .column {
+	margin: 0;
+}
+
+.img {
+	display: block;
+}
+
+.gallery-wrap {
+	margin-bottom: 50px;
+}
+
+.link__view-more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 55px;
+	margin: 0 auto;
+	background-color: #5585a2;
+	font-size: 20px;
+	color: #ffffff;
+}
 
 /*subscribe*/
 
