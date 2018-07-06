@@ -44,7 +44,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .container {
 	width: 1200px;
 	margin: 0 auto;
-	font-size: 0;
 }
 
 .row {
@@ -234,10 +233,13 @@ p, h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	border: none;
 	background-color: #ff6033;
-	box-shadow: 0 2px 1px 1px #9a9a9c; 
 	font-size: 20px;
 	color: #ffffff;
 	text-transform: uppercase;
+}
+
+.btn-info:hover {
+	box-shadow: 0 2px 1px 1px #9a9a9c; 
 }
 
 .scroll__header {
@@ -392,6 +394,43 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*subscribe*/
+
+.wrap-subscribe {
+	padding: 140px 0 160px;
+	background-image: url(../img/subscribe-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.section-h4 {
+	font-family: 'raleway bold';
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.subscribe-text {
+	margin-bottom: 30px;
+}
+
+.input-mail {
+	height: 55px;
+	padding: 0 10px;
+	border: 1px solid #262626;
+	font-size: 15px;
+}
+
+.btn-subscribe {
+	padding: 0;
+	border: none;
+	background-color: #96b92c;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.btn-subscribe:hover {
+	box-shadow: 0 2px 5px 1px #9e9e9e;
+}
 
 /*blog*/
 
