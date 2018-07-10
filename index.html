@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
 	<meta charset="UTF-8">
 	<title>Cahee</title>
@@ -10,19 +10,19 @@
 <body>
 	<!--header-->
 	<div class="wrap wrap__header">
-		<header class="container header">
+		<header  class="container header" id="header">
 			<a href="#" class="link">
 				<h1 class="logo">Cahee</h1>
 			</a>
 			<div class="row">
 				<nav class="column column-s6 offset-s6 nav">
 					<ul class="list list__menu list-nav">
-						<li class="list-nav__item"><a href="" class="link list-nav__link">home</a></li>
-						<li class="list-nav__item"><a href="" class="link list-nav__link">about</a></li>
-						<li class="list-nav__item"><a href="" class="link list-nav__link">services</a></li>
-						<li class="list-nav__item"><a href="" class="link list-nav__link">gallegy</a></li>
-						<li class="list-nav__item"><a href="" class="link list-nav__link">blog</a></li>
-						<li class="list-nav__item"><a href="" class="link list-nav__link">contact</a></li>
+						<li class="list-nav__item"><a href="#header" class="link list-nav__link">home</a></li>
+						<li class="list-nav__item"><a href="#about-us" class="link list-nav__link">about</a></li>
+						<li class="list-nav__item"><a href="#services" class="link list-nav__link">services</a></li>
+						<li class="list-nav__item"><a href="#gallery" class="link list-nav__link">gallegy</a></li>
+						<li class="list-nav__item"><a href="#blog" class="link list-nav__link">blog</a></li>
+						<li class="list-nav__item"><a href="#contact" class="link list-nav__link">contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -55,7 +55,7 @@
 		</div>
 		<!--swction services-->
 		<div class="wrap wrap__services">
-			<section class="container section-services">
+			<section class="container section-services" id="services">
 				<div class="row row__services">
 					<div class="column column-s5 offset-s1">
 						<ul class="list list__services-menu">
@@ -101,7 +101,7 @@
 		</div>
 		<!--section gallery-->
 		<div class="wrap wrap__gallery">
-			<section class="container section-gallery">
+			<section class="container section-gallery" id="gallery">
 				<div class="row">
 					<h2 class="column column-s12 section-h2 section-h2__gallery">Gallery</h2>
 				</div>
@@ -161,7 +161,7 @@
 		</div>
 		<!--section blog-->
 		<div class="wrap wrap__blog">
-			<section class="container section-blog">
+			<section class="container section-blog" id="blog">
 				<div class="row">
 					<h2 class="column column-s12 section-h2 section-h2__gallery">Blog</h2>
 				</div>
@@ -207,7 +207,43 @@
 				
 			</section>
 		</div>
-		<!--footer-->
 	</main>
+	<!--footer-->
+	<div class="wrap wrap__footer">
+		<footer class="container footer" id="contact">
+			<div class="row">
+				<div class="column column-s4 contact">
+					<h2 class="section-h2">Contact</h2>
+					<p class="section-text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+				</div>
+			</div>
+			<div class="row form-wrap">
+				<form class="form" action="#">
+					<input class="input-field" type="text" name="name" placeholder="Auskteez Tran">
+					<input class="input-field" type="email" name="email" placeholder="Your email...">
+					<input class="input-field" type="tel" name="telephone" placeholder="Your phone number...">
+					<textarea class="input-field" name="message" cols="30" rows="10" placeholder="Your messge..."></textarea>
+				</form>
+				<div class="contact-info">
+					<p class="contact-info__text"><span class="contact-info__text--head">ADDRESS</span> 123 City name, Street, City, Country</p>
+					<p class="contact-info__text"><span class="contact-info__text--head">EMAIL</span> cahee@domain.com</p>
+					<p class="contact-info__text"><span class="contact-info__text--head">PHONE</span> +012 345 6789</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="wrap wrap__copirate">
+		<div class="container">
+			<div class="row">
+				<div class="copirate column column-s12">
+					<p class="copirate-text">© 2015 Company. All right reserved.</p>
+					<a href="#" class="link">
+					<h1 class="logo-head">Cahee</h1>
+					</a>
+					<p class="copirate-slogan">Made with <span>love</span> by Auskteez</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
